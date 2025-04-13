@@ -254,7 +254,7 @@ option { font-weight: normal; /* Ensure options are normal weight */ font-style:
 #managing-committee-page .committee-grid { /* General grid for this page */ display: grid; justify-content: center; gap: 30px; max-width: 1100px; /* Allow wider grid */ margin: 0 auto; /* Center grid */ }
 #managing-committee-page .managing-top-row { /* Aim for 3 columns on wider screens */ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 #managing-committee-page .managing-bottom-row { /* Aim for 2 columns on wider screens */ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); max-width: 800px; /* Limit width for 2 columns */ }
-.managing-member { text-align: center; padding: 15px; background-color: rgba(255, 255, 255, 0.4); /* Optional subtle background */ border-radius: 8px; }
+.managing-member { text-align: center;height: fit-content; padding: 15px; background-color: rgba(255, 255, 255, 0.4); /* Optional subtle background */ border-radius: 8px; }
 .managing-member-photo { width: 100%; /* Make image responsive within its container */ max-width: 280px; /* Control max size */ height: 70%; /* Maintain aspect ratio */ border-radius: 8px; /* Slightly rounded corners */ border: 3px solid var(--secondary-color); /* Gold border */ box-shadow: 0 5px 15px rgba(0,0,0,0.15); margin: 0 auto 15px auto; /* Center image */ display: block; background-color: #eee; /* Placeholder bg */ }
 .managing-member h4 { font-family: var(--font-heading); font-size: 1.3rem; color: var(--primary-color); margin-bottom: 5px; }
 .managing-member p.designation { /* Style for designation */ font-size: 1rem; color: var(--text-color); /* Use default text color or slightly muted */ line-height: 1.4; }
